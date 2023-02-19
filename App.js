@@ -1,6 +1,6 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
-import BaseNavigator from "./src/BaseNavigator";
+import MoreNavigator from "./src/navigators/MoreNavigator";
 
 
 export default function App() {
@@ -8,7 +8,7 @@ export default function App() {
     return (
 
         <NavigationContainer>
-            <BaseNavigator />
+            <MoreNavigator />
         </NavigationContainer>
 
     );

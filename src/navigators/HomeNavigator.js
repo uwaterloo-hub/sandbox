@@ -1,19 +1,19 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
-import Home from "./pages/Home";
-import MoreNavigator from "./pages/MoreNavigator";
+import Home from "../pages/Home";
+import More from "../pages/More";
 
 
 const Tab = createBottomTabNavigator();
 
-export default function BaseNavigator() {
+export default function HomeNavigator() {
 
     return (
     
         <Tab.Navigator>
             <Tab.Screen name="Home" component={Home} />
-            <Tab.Screen name="MoreNavigator" component={MoreNavigator} options={{ headerShown: false     }} />
+            <Tab.Screen name="More" component={More} />
         </Tab.Navigator>
         
     );
