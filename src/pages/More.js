@@ -4,6 +4,8 @@ import { Button, Text, View } from "react-native";
 
 export default function More({ navigation }) {
 
+    console.log("more")
+
     return (
 
         <View style={{ justifyContent: "center", alignItems: "center" }}>

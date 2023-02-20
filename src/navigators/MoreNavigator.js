@@ -7,7 +7,10 @@ import { FadeFromRight } from "./FadeFromRightPreset";
 
 const Stack = createStackNavigator();
 
-export default function MoreNavigator() {
+export default function MoreNavigator(props) {
+
+    console.log("more nav")
+    console.log(props)
 
     return (
 

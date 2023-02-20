@@ -6,7 +6,7 @@ export default function Settings() {
 
     return (
 
-        <View style={{ justifyContent: "center", alignItems: "center", flex: 1, backgroundColor: "red" }}>
+        <View style={{ justifyContent: "center", alignItems: "center" }}>
             <Text>Settings Page</Text>
         </View>
 
