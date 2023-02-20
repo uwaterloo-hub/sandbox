@@ -11,7 +11,8 @@ export default function HomeNavigator() {
 
     return (
     
-        <Tab.Navigator>
+        <Tab.Navigator screenOptions={{ tabBarStyle: { backgroundColor: "red" } }} >
+
             <Tab.Screen name="Home" component={Home} />
             <Tab.Screen name="More" component={More} />
         </Tab.Navigator>

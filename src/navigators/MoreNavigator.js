@@ -13,7 +13,7 @@ export default function MoreNavigator() {
 
         <Stack.Navigator screenOptions={{ ...FadeFromRight }}>
 
-            <Stack.Screen name="HomeNavigator" component={HomeNavigator} options={{ headerShown: false }}/>
+            <Stack.Screen name="HomeNavigator" component={HomeNavigator} options={{ headerShown: false }} />
             <Stack.Screen name="Settings" component={Settings}/>
         </Stack.Navigator>
 
